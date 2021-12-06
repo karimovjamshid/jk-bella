@@ -1,0 +1,373 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Raleway"] {font-family: 'Raleway', arial, sans-serif !important;}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+    
+		table td {
+			border-collapse: collapse;
+		}
+    
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+        .menu a{
+            color: #6c6c6c;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.28px;
+            text-decoration: none;
+        }
+        .menu td{
+            padding-left: 30px;
+        }
+        .header-td{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .features-td{
+            padding-top: 100px;
+            padding-bottom: 30px;
+            font-size: 14px;
+            color: #6c6c6c;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+        }
+        .features-item{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        .quotes-td{
+            padding-top: 150px;
+            padding-bottom: 50px;
+        }
+        .quote-td{
+            font-size: 14px;
+            color: #6c6c6c;
+            letter-spacing: 0.28px;
+            line-height: 30px;
+            
+        }
+        .block-table td{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        .block-table{
+            border-top: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            border-left: 1px solid #e6e6e6;
+            border-right: 1px solid #e6e6e6;
+            
+        }
+        .author{
+            padding-top: 30px;
+        }
+        .footer-td{
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        .footer-menu{
+            padding-top: 60px;
+            padding-bottom: 35px;
+        }
+        .footer-menu a{
+            color: #bcc9dd;
+            font-size: 14px;
+            letter-spacing: 0.36px;
+            text-decoration: none;
+        }
+        .copy-td{
+            font-size: 12px;
+            color: #bcc9dd;
+            letter-spacing: 0.31px;
+            text-decoration: none;
+        }
+        @media (max-width:870px) {
+            .table-850{
+                width: 600px !important;
+            }
+            .table-600{
+                width: 550px !important;
+            }
+            .block-table{
+                width: 200px !important;
+            }
+            .features-td td{
+                display: block !important;
+                margin-bottom: 50px;
+            }
+        }
+        @media (max-width:620px){
+            .table-850{
+                width: 400px !important;
+            }
+            .table-600{
+                width: 320px !important;
+            }
+            .block-td{
+                display: block !important;
+                margin-bottom: 50px;
+                padding: 0 !important;
+            }
+            .quote-td tr{
+                display: block !important;
+            }
+            .block-table{
+                width: 320px !important;
+                display: block !important;
+                margin: 0 auto !important;
+            }
+            .quotes-td tr{
+                display: block !important;
+            }
+            .quote-td{
+                display: block !important;
+                margin-bottom: 50px !important;
+                padding: 0 !important;
+            }
+            .quote-td br{
+                display: none;
+            }
+          
+            .author{
+                width: 200px !important;
+            }
+            .logo{
+                display: block !important;
+                margin:0 auto !important;
+                width: 200px !important;
+                text-align: center !important;
+            }
+            .logo img{
+                margin:0 auto !important;;
+            }
+            .menu{
+                display: block !important;
+                margin:0 auto !important;
+                margin-top: 20px !important;
+            }
+            .features-item p > br{
+                display: none;
+            }
+        }
+        @media (max-width:420px){
+            .table-850{
+                width: 300px !important;
+            }
+            .table-600{
+                width: 260px !important;
+            }
+            .footer-menu table{
+                width: 260px !important;
+            }
+            .author{
+                width: 160px !important;
+            }
+            .menu td{
+                padding-right: 10px !important;
+                padding-left: 10px !important; 
+            }
+        }
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <!-- This is a title of message which will appear on mail preview -->
+	<div style="font-size:0px;color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ec5483">
+        <tr>
+            <td>
+                <table class="main table-850" cellpadding='0' cellspacing='0' width='850' align="center">
+                    <!-- Empty space on top -->
+                    <tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+                    <!-- Header -->
+                    <tr>
+                        <td bgcolor="#ffffff" class="header-td">
+                            <table class="table-600" cellpadding='0' cellspacing='0' width='600' align="center">
+                                <tr>
+                                    <td align="left" class="logo">
+                                        <img src="./bella.png" alt=""/>
+                                    </td>
+                                    <td align="right" class="menu">
+                                        <table cellpadding='0' cellspacing='0'>
+                                            <tr>
+                                                <td><a href=""  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
+                                                <td><a href="" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Features</a></td>
+                                                <td><a href="" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Pricing</a></td>
+                                                <td><a href="" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Hero -->
+                    <tr>
+                        <td class="hero-td" >
+                            <a href="#">
+                                <img src="./brn.png" alt="" style="width: 100%; height: auto; display: block;"/>
+                            </a>
+                        </td>
+                    </tr>
+                    <!-- Features -->
+                    <tr>
+                        <td class="features-td" bgcolor="#ffffff">
+                            <table cellpadding='0' class="table-600" cellspacing='0' width='600' align="center">
+                                <tr>
+                                    <td align="center" class="features-item">
+                                        <img src="./return.png" alt=""/>
+                                        <p  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Lorem ipsum dolor sit<br> amet  consectetur adipisicing elit. Quo <br>  nostrum mollitia inventore dicta,  praesentium esse.</p>
+                                        <a href="#">
+                                            <img src="./read-more.png" alt=""/>
+                                        </a>
+                                    </td>
+                                    <td align="center" class="features-item">
+                                        <img src="./stopwatch.png" alt=""/>
+                                        <p  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Lorem ipsum dolor sit<br> amet  consectetur adipisicing elit. Quo <br>  nostrum mollitia inventore dicta,  praesentium esse.</p>
+                                        <a href="#">
+                                            <img src="./read-more.png" alt=""/>
+                                        </a>
+                                    </td>
+                                    <td align="center" class="features-item">
+                                        <img src="./reminders.png" alt=""/>
+                                        <p  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Lorem ipsum dolor sit<br> amet  consectetur adipisicing elit. Quo <br>  nostrum mollitia inventore dicta,  praesentium esse.</p>
+                                        <a href="#">
+                                            <img src="./read-more.png" alt=""/>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Quotes -->
+                    <tr>
+                        <td class="quotes-td" bgcolor="#ffffff">
+                            <table  cellpadding='0' cellspacing='0' align="center">
+                                <tr class="two-tables">
+                                    <td class="quote-td" align="center" style="padding-right: 10px;">
+                                        <table cellpadding='0' cellspacing='0' class="block-table" align="center" width="280">
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi veniam dicta <br> impedit
+                                                         maiores recusandae maxime <br> blanditiis porro praesentium consequatur <br> fugiat ea repudiandae
+                                                          sit dolor <br>, necessitatibus fugit.
+            
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        
+                                    </td>
+                                    <td class="quote-td" align="center" style="padding-left: 10px;">
+                                        <table cellpadding='0' cellspacing='0' class="block-table" align="center" width="280">
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Excepturi veniam dicta <br> impedit
+                                                         maiores recusandae maxime <br> blanditiis porro praesentium consequatur <br> fugiat ea repudiandae
+                                                          sit dolor <br>, necessitatibus fugit.
+            
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        
+                                    </td>
+                                </tr>
+                                <!-- Authors -->
+                                <tr>
+                                    <td style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" class="author" align="center">
+                                        <img src="./author_img.png" alt=""/>
+                                        <h3>Alexandr Doe</h3>
+                                        <p>Senior UX Developer</p>
+                                    </td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" class="author" align="center">
+                                        <img src="./author_img-2.png" alt=""/>
+                                        <h3>Laurie Doe</h3>
+                                        <p>Marketing expert</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Footer -->
+                    <tr>
+                        <td class="footer-td" bgcolor="#38404b">
+                            <table class="table-600" cellpadding='0' cellspacing='0' width="600" align="center">
+                                <!-- Footer logo -->
+                                <tr>
+                                    <td class="footer-logo" align="center">
+                                        <a href=""><img src="./bella-footer.png" alt=""/></a>
+                                    </td>
+                                </tr>
+                                <!-- Footer navigation -->
+                                <tr>
+                                    <td class="footer-menu" align="center">
+                                        <table cellpadding='0' cellspacing='0' width='350' align="center">
+                                            <tr>
+                                                <td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">About us</a></td>
+                                                <td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
+                                                <td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">News</a></td>
+                                                <td align="center"><a href="#"  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact us</a></td>
+                                            </tr>
+                                            
+                                            
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- Copyright -->
+                                <tr>
+                                    <td  style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" class="copy-td" align="center">
+                                        @2021 pixelhint.com. All Rights Reserved.
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Empty space on bottom -->
+                    <tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+		
+	</table>
+</body>
+
+</html>
